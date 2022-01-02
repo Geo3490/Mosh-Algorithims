@@ -42,6 +42,14 @@ position
 salary
 hiredDate
 
+The Java field access modifier determines whether the field can be accessed by classes other than the class owning the field.
+ There are four possible access modifiers for Java fields:
+
+private
+package
+protected
+public
+
 
 
     5.VARIABLE-
