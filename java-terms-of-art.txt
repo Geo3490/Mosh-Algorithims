@@ -26,38 +26,37 @@ Commit changes to this file as you add more definitions and explanations
     A Class is like an object constructor, or a "blueprint" for creating objects.
 
 
+3.FUNCTION-
+    Function is a block of code designed to perform a particular task.
 
-    3.FUNCTION
- function is a block of code designed to perform a particular task.
- function is executed when "something" invokes it (calls it).
-
-
-
-    4.FIELD
-A Java field is a variable inside a class. For instance, in a class representing an employee,
-the Employee class might contain the following fields:
-
-name
-position
-salary
-hiredDate
-
-The Java field access modifier determines whether the field can be accessed by classes other than the class owning the field.
- There are four possible access modifiers for Java fields:
-
-private
-package
-protected
-public
+    Function is executed when "something" invokes it (calls it).
 
 
 
-    5.VARIABLE-
+4.FIELD-
+    A Java field is a variable inside a class. For instance, in a class representing an employee,
+    the Employee class might contain the following fields:
+
+    name
+    position
+    salary
+    hiredDate
+
+    The Java field access modifier determines whether the field can be accessed by classes other than the class owning the field.
+    There are four possible access modifiers for Java fields:
+
+    private
+    package
+    protected
+    public
+
+
+5.VARIABLE-
     It is actually an attribute of the class.
     Or you could say that class attributes are variables within a class:
 
 
-    6.STATIC/PUBLIC-
+6.STATIC/PUBLIC-
     You will often see Java programs that have either static or public attributes and methods.
 
     STATIC method,
@@ -66,7 +65,7 @@ public
     Unlike PUBLIC, which can only be accessed by objects:
 
 
-    7.PRIMITIVE/REFERENCE DATA TYPE-
+7.PRIMITIVE/REFERENCE DATA TYPE-
 
     PRIMITIVE- has 8 types- (byte_short_int_long_float_double_char_boolean)
 
