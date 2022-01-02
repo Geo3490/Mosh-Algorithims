@@ -28,13 +28,19 @@ Commit changes to this file as you add more definitions and explanations
 
 
     3.FUNCTION
-
-
+ function is a block of code designed to perform a particular task.
+ function is executed when "something" invokes it (calls it).
 
 
 
     4.FIELD
+A Java field is a variable inside a class. For instance, in a class representing an employee,
+the Employee class might contain the following fields:
 
+name
+position
+salary
+hiredDate
 
 
 
@@ -50,3 +56,21 @@ Commit changes to this file as you add more definitions and explanations
     which means that it can be accessed without creating an object of
     the class,
     Unlike PUBLIC, which can only be accessed by objects:
+
+
+    7.PRIMITIVE/REFERENCE DATA TYPE-
+
+    PRIMITIVE- has 8 types- (byte_short_int_long_float_double_char_boolean)
+
+    when using primitive types you Do NOT need to allocate memory. primitive types is used to store
+    simple values.
+    these single values are complete different of each other in memory stored.
+                        ///////////////////////
+    REFERENCE- When dealing with reference types we should always allocate memory,
+    example- whatever= new()  -method.
+
+    Reference is a blueprint for creating new objects/instances, an object is an instance of the class.
+    Strings are reference type.
+
+    stores complex object data.
+    STORES a reference to an OBJECT somewhere in the memory.
